@@ -1,5 +1,6 @@
 # Hibernate Mapping for a Happy REST
 
+See the companion article here http://revelfire.com/hibernate-mappings-performance-serialization/
 ## Purpose
 Demonstrates idealized hibernate mappings for optimal performance and serialization.
 

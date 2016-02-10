@@ -22,8 +22,9 @@ public class User extends Identifiable {
      * This COULD be @OneToOne as an "owned" relationship if we felt strongly
      * about having a separate table.
      *
-     * In a many-many scenario it would simply not be here, and we would use
-     * a repository.loadAddressForUser with address.user_id being the join point.
+     * This COULD be a one-many scenario in which case it would not be modeled on this
+     * end, rather a repository.loadAddressForUser with address.user_id being the join point
+     * via the foreign key reference.
      */
     @Embedded
     private Address address;
